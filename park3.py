@@ -9,8 +9,8 @@ def konversi_suhu(value, suhu):
     else:
         raise ValueError("suhu tidak valid. gunakan" \
                          "'C' untuk celsius atau 'F' untuk farenheit.")
-    print(konversi_suhu(200, 'C'))
-    print(konversi_suhu(38, 'F'))
+print(konversi_suhu(200, 'C'))
+print(konversi_suhu(38, 'F'))
 
 #2
 luas_lingkaran = lambda jari_jari: 3.14 * (jari_jari ** 2)
