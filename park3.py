@@ -18,3 +18,4 @@ luas_lingkaran = lambda jari_jari: 3.14 * (jari_jari ** 2)
 n = float(input("Masukkan Nilai nari-jari lingkaran: "))
 
 print("Luas lingkaran dengan jari-jari", n, "adalah:", luas_lingkaran(n))
+.
